@@ -1,20 +1,20 @@
 # Vérification de la première itération
 
-État au 23 octobre 2026 : version préparée et publication autorisée par le titulaire; déploiement en cours.
+État au 23 octobre 2026 : version publiée sur https://valisoa22.github.io/ ; déploiement GitHub Pages vérifié avec succès.
 
 ## Matrice de conformité
 
 | Critère | Mise en œuvre | État |
 |---|---|---|
-| Dépôt et historique — 30 % | Dépôt existant Valisoa22/Valisoa22.github.io cloné sur main; commit initial conservé; nouveaux commits locaux descriptifs | Publication autorisée |
-| README et modifications — 50 % | Titre, présentation, parcours, projet envisagé, médias, contacts et navigation personnalisés; structure index.html/assets/images conservée | Réalisé localement |
+| Dépôt et historique — 30 % | Dépôt public Valisoa22/Valisoa22.github.io; commit initial conservé; changements publiés par groupes de fichiers via GitHub | Historique visible |
+| README et modifications — 50 % | Titre, présentation, parcours, projet envisagé, médias, contacts et navigation personnalisés; structure index.html/assets/images conservée | Publié |
 | Design — 6 points | Composition originale bleu nuit/ivoire/doré, typographie serif et sans-serif, parcours chronologique, galerie asymétrique | Réalisé |
 | Contenu — 6 points | Sources personnelles, formation et orthographe confirmées; aucun diplôme de master obtenu ni entreprise lancée inventés | Contenu confirmé par le titulaire |
 | Fonctionnalités — 5 points | Menu mobile, galerie avec dialogue clavier, navigation de sections, copie du courriel en contexte sécurisé | Tests partiels ci-dessous |
 | Créativité — 3 points | Fil conducteur Madagascar–Canada et photographies personnelles | Réalisé |
 | CV | Facultatif pour la mi-session selon le document original des consignes complémentaires | Non inclus |
 | Attribution | CLESSN, Read Only / HTML5 UP, CC BY 3.0; assistance IA documentée | Réalisé |
-| Publication | GitHub Pages déjà activé au début de cette intervention | Nouvelle version non publiée |
+| Publication | GitHub Pages déjà activé au début de cette intervention | Version personnalisée publiée |
 | Remise | Deux URL à envoyer en privé, conformément aux consignes originales | Non effectuée |
 
 ## Contrôles exécutés
@@ -34,8 +34,8 @@
 ## Limites et vérifications restantes
 
 - Aucun test sur un téléphone physique ni dans Safari ou Firefox; aucune certification exhaustive WCAG.
-- Copie du courriel masquée dans l’aperçu HTTP non sécurisé : comportement de repli vérifié par présence du lien mailto; copie réelle à tester après publication HTTPS. Aucun courriel envoyé.
-- Liens externes : les deux dépôts GitHub répondent HTTP 200; le site public répond HTTP 200 et contient encore le gabarit initial. Facebook redirige vers une connexion (profil non vérifié). HTML5 UP retourne HTTP 403 depuis cet environnement : lien conservé pour attribution, contenu non vérifié par ce test.
+- Copie du courriel : repli mailto présent en HTTP; en HTTPS, clic testé et confirmation « Adresse courriel copiée. » affichée. Contenu du presse-papiers non confirmé indépendamment. Aucun courriel envoyé.
+- Liens externes : les deux dépôts GitHub répondent HTTP 200; le site public a été vérifié dans Chromium après déploiement et présente le portfolio personnalisé. Facebook redirige vers une connexion (profil non vérifié). HTML5 UP retourne HTTP 403 depuis cet environnement : lien conservé pour attribution, contenu non vérifié par ce test.
 - Le titulaire a explicitement autorisé la publication de son nom, parcours, projet, courriel, liens et cinq photos sur GitHub et GitHub Pages; il a confirmé disposer des autorisations nécessaires pour les personnes visibles.
 - Les modalités particulières de déclaration IA restent à vérifier selon les directives professorales. L’assistance utilisée est explicitement documentée.
-- La nouvelle version, le build Pages final et la remise universitaire ne sont pas déclarés vérifiés.
+- Déploiement du portfolio (commit 4966144) vérifié : exécution Pages 40042001872, statut Success. Les cinq photos sont chargées et décodées sur le site HTTPS. La remise universitaire reste à effectuer par le titulaire.
