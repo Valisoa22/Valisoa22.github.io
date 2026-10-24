@@ -63,3 +63,9 @@ Statut : préparée sur `refonte-sobre-times`. L’intégration sur `main` et le
 - Déploiement de la refonte et nouveau contrôle en HTTPS à effectuer après validation. La copie du courriel est masquée dans l’aperçu HTTP; le JavaScript correspondant est inchangé, mais son fonctionnement HTTPS doit être recontrôlé après intégration.
 - Pas de test sur téléphone physique, Safari ou Firefox, ni audit exhaustif d’accessibilité.
 - Les contenus biographiques du site ont été conservés sans changement arbitraire; la formation actuelle doit être reconfirmée par le titulaire avant publication en cas de correction.
+
+### Publication approuvée et vérifiée
+
+Le 23 octobre 2026, le titulaire a confirmé la formation « Maîtrise en études internationales » et autorisé la publication de la refonte. La pull request #1 a été fusionnée avec conservation des cinq commits (commit de fusion 05f1749). L’exécution GitHub Pages 40045581258 a terminé avec le statut Success.
+
+Le site HTTPS a été ouvert après déploiement : titre V, nouvelle couverture, portrait circulaire, formation conservée et cinq photographies chargées. L’agrandissement de la randonnée puis la fermeture par Échap fonctionnent. Le clic sur « Copier le courriel » affiche « Adresse courriel copiée. »; le contenu du presse-papiers n’a pas été contrôlé indépendamment. La page des mentions légales s’ouvre correctement. Aucun courriel n’a été envoyé. La validation finale et le déploiement ne sont donc plus en attente; les limites sur les appareils physiques et autres navigateurs restent applicables.
