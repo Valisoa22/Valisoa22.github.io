@@ -25,7 +25,7 @@ Aucune installation et aucun serveur applicatif ne sont nécessaires. GitHub Pag
 
 ## Refonte sobre du 23 octobre 2026
 
-Préparée sur la branche `refonte-sobre-times`, sans modifier la version publiée sur `main` avant la validation finale demandée par le titulaire.
+Préparée sur la branche `refonte-sobre-times`, puis intégrée sur `main` après validation finale du titulaire. La pull request #1 et ses cinq commits sont conservés; la refonte est publiée sur GitHub Pages.
 
 - Identité : lettre V sans point dans la navigation, l’onglet et le favicon; retrait des flèches et des tirets décoratifs.
 - Typographie : Times New Roman sur l’ensemble de l’interface. Le nom complet est un seul titre, sans différences de taille, de graisse ou de casse entre ses parties. Les paragraphes sont à 18 px, les éléments secondaires à 15–17 px; les titres ont des tailles adaptatives et modérées.
@@ -37,3 +37,7 @@ Préparée sur la branche `refonte-sobre-times`, sans modifier la version publi�
 ### Comprendre les fichiers
 
 HTML décrit le contenu et son ordre : déplacer la figure de couverture la fait apparaître avant la présentation. CSS définit l’apparence : la grille place le texte et le portrait côte à côte; les media queries adaptent la disposition aux petits écrans. Le JavaScript préexistant ouvre le menu et les photographies, et propose la copie du courriel en HTTPS.
+
+## Démarche et participation
+
+Le [README](../README.md) relie les étapes aux commits et aux critères du cours. Le document [DEMARCHE.md](DEMARCHE.md) distingue les contenus, choix et validations du titulaire de l’implémentation et des tests assistés par ChatGPT/Codex. Le [guide original](GUIDE-ORIGINAL.md) est conservé sans modification.
