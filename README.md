@@ -1,311 +1,100 @@
-# Créer votre site web avec GitHub Pages
+# V | Portfolio personnel
 
-Bienvenue ! Ce guide vous expliquera comment utiliser GitHub Pages pour créer votre propre site web personnel en utilisant n'importe quel template HTML. 
-Suivez attentivement chaque étape, même si vous n'êtes pas familier avec GitHub.
+**Maheriniaina Valisoa Randriamiharimanana**
+POL-6078, Outils numériques en sciences sociales, Université Laval
+Première itération, automne 2026
 
-## Prérequis
+## Liens pour l’évaluation
 
-- Avoir un compte GitHub. Si vous n'en avez pas encore, créez-en un sur [github.com](https://github.com).
-- Avoir Git installé sur votre ordinateur. Vous pouvez télécharger Git [ici](https://git-scm.com/downloads) si ce n'est pas déjà fait.
-- Un éditeur de texte comme RStudio ou Visual Studio Code pour modifier le code HTML.
+- **Site publié : [https://valisoa22.github.io/](https://valisoa22.github.io/)**
+- **Dépôt : [Valisoa22/Valisoa22.github.io](https://github.com/Valisoa22/Valisoa22.github.io)**
+- [Historique complet des commits](https://github.com/Valisoa22/Valisoa22.github.io/commits/main/)
+- [Refonte : pull request #1, fusionnée](https://github.com/Valisoa22/Valisoa22.github.io/pull/1)
+- [Contribution personnelle et démarche](docs/DEMARCHE.md)
+- [Choix de conception et crédits](docs/CONCEPTION.md)
+- [Vérifications réalisées et limites](docs/VERIFICATION.md)
 
-## Étape 1: Créer un répertoire GitHub Pages
+Le site est publié depuis la branche `main`, dossier racine, avec GitHub Pages. Le projet d’import-export décrit sur le site est **envisagé**, et non une entreprise déjà lancée. La formation affichée, confirmée par le titulaire, est la maîtrise en études internationales à l’Université Laval.
 
-1. Connectez-vous à GitHub.
-2. Cliquez sur **"Use this template"** (bouton vert en haut à droite).
-3. Sélectionnez **Create a new repository**
-4. Dans la section **Repository name**, entrez votre nom d'utilisateur suivi de `.github.io`. Par exemple, si votre nom d'utilisateur est `joebloe`, nommez le répertoire `joebloe.github.io`. Cela est essentiel pour que GitHub reconnaisse votre site.
-5. Assurez-vous que le répertoire est **Public** et cliquez sur **Create repository**.
+## Contribution de l’étudiant et assistance utilisée
 
-## Étape 2: Cloner le répertoire sur votre ordinateur
+L’étudiant a fourni son parcours, son projet entrepreneurial, ses coordonnées, ses liens et ses cinq photographies personnelles. Il a défini les préférences de présentation, formulé une demande détaillée de refonte, confirmé les informations et validé les versions avant leur publication.
 
-Vous allez maintenant copier le répertoire sur votre machine pour pouvoir le modifier.
+Ses décisions de personnalisation comprennent notamment : le logo V sans point, Times New Roman pour tous les textes, un nom présenté uniformément, une couverture en haut de page, un portrait circulaire plus petit, la suppression des flèches et tirets décoratifs, des contacts harmonisés et un pied de page épuré. La refonte conserve la palette qu’il a approuvée.
 
-1. Sur la page de votre répertoire (par exemple, `https://github.com/joebloe/joebloe.github.io`), cliquez sur le bouton vert **Code**.
-2. Copiez le lien du répertoire.
-3. Ouvrez une fenêtre de terminal (ou Git Bash si vous êtes sur Windows) et tapez la commande suivante pour cloner le répertoire dans un dossier sur votre ordinateur :
-   
-   ```bash
-   git clone https://github.com/username/username.github.io
-   ```
+ChatGPT / Codex a réalisé l’implémentation HTML/CSS/JavaScript, la préparation des images Web, les opérations techniques de publication et les tests décrits dans la documentation. Les modifications ont été enregistrées depuis le compte GitHub du titulaire avec son autorisation. **Le nom du compte affiché sur un commit ne signifie pas que l’étudiant a écrit seul toutes les lignes de code.** La contribution personnelle documentée porte sur le contenu, les consignes de conception, les demandes de correction et les validations. Voir [la démarche détaillée](docs/DEMARCHE.md).
 
-   Remplacez `username` par votre propre nom d'utilisateur GitHub.
+Cette documentation est une synthèse rétrospective des échanges et de l’historique réel, préparée avec l’assistance de ChatGPT/Codex. Elle ne constitue ni une attestation de travail entièrement autonome ni une déclaration de maîtrise de toutes les notions techniques.
 
-4. Accédez au répertoire cloné :
+## Étapes réalisées et traces dans GitHub
 
-   ```bash
-   cd username.github.io
-   ```
+| Étape | Travail réalisé | Trace consultable |
+|---|---|---|
+| 1. Point de départ | Dépôt issu du gabarit CLESSN / Read Only; état initial conservé | [4eb1fa7](https://github.com/Valisoa22/Valisoa22.github.io/commit/4eb1fa7cf94c7108ccc64053162a8dc9f236a763) |
+| 2. Première personnalisation | Style, interactions, photos, contenu et documentation ajoutés | [Historique](https://github.com/Valisoa22/Valisoa22.github.io/commits/main/) et [publication du portfolio](https://github.com/Valisoa22/Valisoa22.github.io/commit/496614437c029451dfefb01cd72c4a7a2c766756) |
+| 3. Identité demandée par l’étudiant | Logo V, titre de l’onglet, nom uniforme, retrait des ornements | [5a68c93](https://github.com/Valisoa22/Valisoa22.github.io/commit/5a68c9345a85f810666909d8a275eb340410ebc8) |
+| 4. Favicon | V sans point, cohérent avec l’identité du site | [5fe49d2](https://github.com/Valisoa22/Valisoa22.github.io/commit/5fe49d253ebb409e251e734185016888a7feed75) |
+| 5. CSS et adaptation aux écrans | Times New Roman, tailles équilibrées, portrait rond et mise en page responsive | [f84558c](https://github.com/Valisoa22/Valisoa22.github.io/commit/f84558c3e9646be18e36d6ab5fd96990904a8559) |
+| 6. Structure et contacts | Couverture déplacée en haut, contacts uniformisés, crédits dans les mentions légales | [f805b33](https://github.com/Valisoa22/Valisoa22.github.io/commit/f805b330ed66ca0b62feed1dcfe761045ace1ff6) |
+| 7. Vérifications | Résultats des contrôles et limites documentés | [50e6e9a](https://github.com/Valisoa22/Valisoa22.github.io/commit/50e6e9a6b793c067ad382f6f88551dc85c9fa70c) |
+| 8. Validation et intégration | Accord du titulaire, puis fusion de la branche de refonte sans supprimer ses commits | [Pull request #1](https://github.com/Valisoa22/Valisoa22.github.io/pull/1) et [05f1749](https://github.com/Valisoa22/Valisoa22.github.io/commit/05f1749180720d8244c11524d7f71f0b414a7841) |
+| 9. Publication vérifiée | Contrôle HTTPS et compte rendu après publication | [Historique final](https://github.com/Valisoa22/Valisoa22.github.io/commits/main/) |
 
-## Étape 3: Personnaliser votre site
+Les commits reflètent des opérations réelles et sont regroupés sur une même séance de travail. Aucun historique réparti artificiellement sur plusieurs jours n’a été créé. Les premières préparations locales ont été transférées par groupes de fichiers dans l’interface GitHub; leurs identifiants locaux ne sont pas présentés comme des commits du dépôt distant.
 
-Maintenant que vous avez cloné le répertoire sur votre machine, vous pouvez modifier les fichiers pour y ajouter vos informations personnelles. 
-Vous pouvez utiliser RStudio, Visual Studio Code, ou tout autre éditeur de texte pour éditer les fichiers.
+## Correspondance avec les critères du cours
 
-Le fichier principal à modifier est généralement `index.html`, car c'est le fichier qui sera affiché par défaut lorsque quelqu'un visite votre site.
-Les navigateurs web cherchent automatiquement un fichier `index.html` dans le répertoire racine d'un site web.
+| Critère annoncé | Éléments à examiner |
+|---|---|
+| Dépôt GitHub et historique : 30 % | Dépôt public, commits descriptifs, branche `refonte-sobre-times`, pull request et déploiements Pages |
+| Étapes et modifications : 50 % | Titre, présentation, parcours, projet, cinq photographies, navigation et contacts personnalisés; guide initial conservé |
+| Design et CSS : 6 % | Mise en page retravaillée, couverture panoramique, portrait circulaire, Times New Roman et palette cohérente |
+| Contenu : 6 % | Parcours fourni par l’étudiant, projet Madagascar–Canada présenté avec son statut réel, intérêts et photographies personnels |
+| Fonctionnalités : 5 % | Menu mobile, navigation interne, agrandissement des photos, fermeture clavier et copie du courriel en HTTPS |
+| Créativité : 3 % | Identité V et présentation orientée vers le parcours et le projet personnel du titulaire |
 
-À noter: si vous ne souhaitez pas utiliser le modèle déjà présent dans index.html, il existe une multitude de modèles gratuits sur le Web! Visitez par exemple:
+Cette correspondance facilite la lecture du travail; elle ne constitue pas une auto-attribution de points. Le CV est facultatif pour la première itération selon les consignes complémentaires et n’est pas inclus.
 
-- https://html5up.net/ (le modèle proposé vient de ce site);
-- https://huggingface.co/spaces/enzostvs/deepsite (pour générer votre site Web par IA).
+## Organisation du code
 
-### Éléments à personnaliser
+| Fichier | Fonction |
+|---|---|
+| `index.html` | Contenu, ordre des sections, navigation, liens et textes alternatifs |
+| `assets/css/personnel.css` | Typographie, couleurs, tailles, grille, cadrage et adaptation aux écrans |
+| `assets/js/personnel.js` | Menu mobile, dialogue d’agrandissement et copie du courriel |
+| `images/` | Photographies WebP et favicon SVG |
+| `mentions-legales.html` | Attribution du gabarit, licence et assistance à la réalisation |
+| `docs/` | Démarche, conception, vérifications et guide initial |
+| `LICENSE.txt` | Licence d’origine conservée |
 
-Voici les éléments que vous devriez généralement personnaliser dans votre template, quel qu'il soit :
+Les anciennes ressources du gabarit sont conservées, mais `index.html` charge seulement les fichiers CSS et JavaScript personnalisés. Aucun framework ni installation de dépendances n’est nécessaire.
 
-#### 1. Le titre du site
+## Comprendre les modifications principales
 
-Recherchez la balise `<title>` dans le fichier HTML principal. Cette balise détermine ce qui apparaîtra dans l'onglet de votre navigateur.
+- **HTML** : déplacer la figure de couverture avant la section d’accueil change son emplacement dans la page. Une liste commune organise les trois contacts.
+- **CSS** : `font-family` définit la police; `display: grid` dispose le texte et le portrait; `aspect-ratio: 1` et `border-radius: 50%` produisent un cadre circulaire; `object-fit: cover` recadre sans étirer l’image.
+- **Responsive** : les règles `@media` changent les colonnes et les dimensions quand l’écran devient plus étroit.
+- **JavaScript** : les événements de clic ouvrent le menu ou une photographie; la touche Échap ferme le dialogue; l’API du presse-papiers permet de copier le courriel en contexte sécurisé.
 
-```html
-<title>Votre titre ici</title>
-```
+## Procédure pour les prochaines modifications
 
-#### 2. Votre nom et informations personnelles
+Cette procédure est un guide pour poursuivre le travail, pas une affirmation que chaque commande a été saisie personnellement par l’étudiant.
 
-Recherchez les sections qui contiennent des informations personnelles comme votre nom, votre métier ou votre description personnelle. Dans la plupart des templates, ces informations se trouvent dans les sections d'en-tête (`header`) ou d'introduction.
+1. Récupérer la dernière version avec `git pull` avant de commencer.
+2. Préparer la modification dans le fichier concerné et la vérifier dans le navigateur.
+3. Examiner les différences avec `git diff`, puis préparer les fichiers avec `git add`.
+4. Enregistrer une étape cohérente avec `git commit -m "Description précise"`.
+5. Envoyer les commits avec `git push`.
+6. Vérifier l’exécution GitHub Pages dans l’onglet Actions, puis le site public.
 
-#### 3. Vos photos ou images
+La refonte a utilisé une branche dédiée et une pull request pour préparer et contrôler les changements avant leur fusion sur `main`. Les modifications peuvent aussi être enregistrées via l’interface GitHub; c’est cette méthode qui a servi à l’envoi des fichiers pendant l’accompagnement.
 
-La plupart des templates incluent des emplacements pour des photos de profil ou des images d'arrière-plan. Remplacez ces images par les vôtres :
+## Vérifications et limites
 
-1. Préparez vos propres images dans des formats web courants (JPG, PNG)
-2. Placez-les dans le dossier approprié (généralement `images/` ou `img/`)
-3. Mettez à jour les chemins dans le code HTML si nécessaire
+Le rendu ordinateur, des largeurs simulées de 320/390/768 px, la navigation, le menu mobile, la galerie, les ressources et le déploiement ont été contrôlés. Le [rapport de vérification](docs/VERIFICATION.md) distingue les tests exécutés, les résultats et les limites : pas de test sur appareil physique ou dans Safari/Firefox, pas d’audit exhaustif WCAG, profil Facebook inaccessible sans connexion.
 
-#### 4. Navigation et sections
+## Origine et licence
 
-Personnalisez les sections de votre site selon vos besoins. Vous pouvez généralement :
-- Renommer les sections existantes
-- Ajouter ou supprimer des sections
-- Réorganiser l'ordre des sections
+Adaptation de [Read Only, HTML5 UP / AJ (@ajlkn)](https://html5up.net/read-only), fournie par [CLESSN](https://github.com/clessn/gabarit_site_web), sous [CC BY 3.0](LICENSE.txt). Les modifications et l’assistance IA sont documentées. Les photographies personnelles ne relèvent pas de la licence du gabarit.
 
-#### 5. Liens vers vos réseaux sociaux
-
-Mettez à jour les liens vers vos profils de réseaux sociaux. Recherchez dans le code HTML les balises `<a>` avec des classes comme `fa-twitter`, `fa-linkedin`, etc.
-
-```html
-<a href="https://www.linkedin.com/in/votre-profil">LinkedIn</a>
-```
-
-#### 6. Contenu principal
-
-Personnalisez le contenu principal de votre site :
-- Votre biographie ou présentation
-- Vos compétences
-- Vos projets ou réalisations
-- Votre parcours académique et professionnel
-
-#### 7. Informations de contact
-
-Assurez-vous de mettre à jour vos informations de contact, notamment votre adresse e-mail :
-
-```html
-<a href="mailto:votre-email@example.com">Me contacter</a>
-```
-
-#### 8. Stylisation et design
-
-Si vous souhaitez personnaliser davantage l'apparence de votre site, vous pouvez modifier les fichiers CSS (généralement dans un dossier `css/` ou `styles/`). Cela vous permettra de changer les couleurs, les polices, les espacements, etc.
-
-#### 9. Exploration du template
-
-Prenez le temps d'explorer et de comprendre la structure de votre template :
-- Identifiez les différents fichiers et leur rôle
-- Examinez comment les sections sont organisées
-- Notez les classes CSS importantes qui contrôlent le style
-- Recherchez les éventuels fichiers JavaScript qui contrôlent les fonctionnalités interactives
-
-## Étape 4: Pousser les modifications sur GitHub
-
-Une fois que vous avez fait toutes les modifications, vous devez les envoyer sur GitHub pour que votre site soit mis à jour.
-
-1. Dans votre terminal, tapez les commandes suivantes :
-
-```bash
-git add .
-git commit -m "Mise à jour du site avec mes informations"
-git push origin main
-```
-
-Cela enverra vos modifications sur GitHub.
-
-## Étape 5: Activer GitHub Pages
-
-1. Allez sur la page de votre répertoire sur GitHub.
-2. Cliquez sur **Settings**.
-3. Dans la barre latérale gauche, cliquez sur **Pages**.
-4. Sous **Source**, sélectionnez **main** et **root**.
-5. Cliquez sur **Save**. 
-
-Votre site sera maintenant accessible à l'adresse `https://username.github.io`, où `username` est votre nom d'utilisateur GitHub.
-
-### Félicitations !
-
-Vous avez maintenant un site web fonctionnel hébergé gratuitement sur GitHub Pages. Vous pouvez y ajouter plus de contenu et personnaliser votre site autant que vous le souhaitez.
-
-N'hésitez pas à poser des questions si vous rencontrez des difficultés. Bonne chance !
-
-
-# Bonus : Ajouter un nom de domaine personnalisé
-
-Ce guide explique comment lier votre site GitHub Pages à votre nom de domaine personnalisé en utilisant Namecheap. Dans cet exemple, nous utiliserons le domaine `votrenom.com` comme domaine personnalisé.
-
-### Prérequis
-
-1. Un répertoire GitHub avec un site GitHub Pages configuré (par exemple, `username.github.io` ou `organisation.github.io`).
-2. Un nom de domaine personnalisé enregistré chez un fournisseur de nom de domaine comme Namecheap (par exemple, `votrenom.com`).
-
-### Étape 1 : Configurer les Enregistrements DNS sur Namecheap
-
-Nous devons configurer les paramètres DNS sur Namecheap pour pointer votre domaine vers GitHub Pages.
-
-1. **Connectez-vous à Namecheap :**
-   - Allez sur [namecheap.com](https://www.namecheap.com) et connectez-vous à votre compte.
-
-2. **Accéder à la Liste de Domaines :**
-   - Depuis le tableau de bord, cliquez sur **Domain List** dans la barre latérale gauche.
-   - Trouvez votre domaine (par exemple, `votrenom.com`) et cliquez sur **Manage**.
-
-3. **Mettre à Jour les Paramètres DNS :**
-   - Dans la section **DNS**, réglez **Nameservers** sur **Namecheap Basic DNS** si cela n'est pas déjà fait.
-
-4. **Ajouter les Enregistrements DNS Suivants :**
-
-   - Dans la page **Advanced DNS**, ajoutez cliquez sur `ADD NEW RECORD` et ajoutez les enregistrements suivants :
-
-   | Type d'Enregistrement | Hôte           | Valeur                          | TTL  |
-   |-----------------------|----------------|---------------------------------|------|
-   | CNAME Record                 | www            | `username.github.io`            | Automatique |
-   | A Record       | @              | `185.199.108.153`               | Automatique |
-   | A Record       | @              | `185.199.109.153`               | Automatique |
-   | A Record       | @              | `185.199.110.153`               | Automatique |
-   | A Record       | @              | `185.199.111.153`               | Automatique |
-
-   **Explication :**
-   - L'enregistrement `CNAME` pointe `www.votrenom.com` vers votre site GitHub Pages.
-   - Les enregistrements `A` garantissent que `votrenom.com` (sans `www`) pointe également vers le même site GitHub Pages.
-
-5. **Enregistrer les Modifications** et attendez que les paramètres DNS se propagent. Cela peut prendre de quelques minutes à plusieurs heures.
-
-### Étape 2 : Configurer GitHub Pages pour un Domaine Personnalisé
-
-1. **Accéder à Votre répertoire :**
-   - Allez dans le répertoire GitHub qui héberge votre site GitHub Pages.
-
-2. **Ouvrir les Paramètres du répertoire :**
-   - Cliquez sur l'onglet **Settings** dans votre répertoire.
-
-3. **Aller dans Pages :**
-   - Dans la section **Code and automation**, trouvez le lien **Pages**.
-
-4. **Définir le Domaine Personnalisé :**
-   - Dans le champ **Custom domain**, entrez votre nom de domaine (par exemple, `www.votrenom.com`).
-
-5. **Créer un Fichier `CNAME` (Optionnel mais Recommandé) :**
-   - Dans le répertoire racine de votre répertoire, créez un fichier nommé `CNAME`. Vous pouvez le faire directement sur GitHub.
-   - À l'intérieur du fichier `CNAME`, ajoutez votre nom de domaine personnalisé, par exemple :
-     ```
-     www.votrenom.com
-     ```
-
-### Étape 3 : Vérifier la Configuration
-
-1. **Visitez Votre Domaine :**
-   - Ouvrez un navigateur et visitez `www.votrenom.com`. Il devrait afficher votre site GitHub Pages.
-   - Essayez également de visiter `votrenom.com`, pour vous assurer que les deux domaines, avec et sans `www`, fonctionnent.
-
-2. **Vérifier le HTTPS :**
-   - Une fois que GitHub Pages configure le HTTPS (cela peut prendre quelques minutes), assurez-vous que votre site est accessible via HTTPS (`https://www.votrenom.com`).
-
-### Dépannage
-
-- **Temps de Propagation des DNS :** Les modifications des enregistrements DNS peuvent prendre du temps à se propager. Vous pouvez vérifier l'état DNS avec des outils en ligne comme [WhatsMyDNS](https://www.whatsmydns.net/).
-- **Problèmes de HTTPS :** Si le HTTPS ne fonctionne pas, assurez-vous que l'option **Enforce HTTPS** est cochée dans les paramètres GitHub Pages et que les enregistrements DNS sont correctement configurés.
-
-## Ressources
-
-- [Documentation GitHub Pages Custom Domain](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site)
-- [Configuration DNS sur Namecheap](https://www.namecheap.com/support/knowledgebase/article.aspx/9776/2237/how-to-set-up-dns-records-for-your-domain-in-namecheap)
-
-
-# Bonus : Créer un CV et l'ajouter à votre site
-
-## Étape 1 : Créer votre CV en PDF
-
-1. **Utilisez Quarto pour créer votre CV** : [Quarto CV](https://github.com/schochastics/quarto-cv) offre de nombreux templates modernes et professionnels pour créer facilement un CV. Vous pouvez choisir parmi plusieurs styles comme `awesome-cv`, `markdowncv`, `classic`, `moderncv`, et d'autres.
-
-2. **Installez Quarto et un template** : 
-
-   - Installez [Quarto](https://quarto.org/docs/download/) si ce n'est pas déjà fait
-   - Clonez ou téléchargez un template de votre choix depuis https://github.com/schochastics/quarto-cv
-   - Suivez les instructions du README pour utiliser le template
-
-3. **Complétez votre CV** : Remplissez le template avec vos informations en format YAML et Markdown. Quarto rend l'édition simple et intuitive.
-
-4. **Rendez votre CV en PDF** : Utilisez la commande `quarto render cv.qmd` pour générer un PDF de votre CV.
-
-5. **Ajoutez le PDF de votre CV à votre répertoire GitHub** :
-   - Créez un dossier nommé `cv` à la racine de votre répertoire GitHub.
-   - Placez votre CV en PDF dans ce dossier.
-   - Prenez une capture d'écran de la première page de votre CV et enregistrez-la dans le même dossier `cv`, sous le nom `cv.png` (cette image servira de solution de secours pour les navigateurs qui ne peuvent pas afficher le PDF intégré).
-  
-## Étape 2 : Intégrer votre CV en PDF à votre site
-
-Il existe plusieurs façons d'intégrer un PDF à votre site web, quelle que soit la template que vous utilisez. Voici une méthode universelle qui fonctionne avec n'importe quelle structure HTML :
-
-1. **Identifiez l'emplacement où vous souhaitez intégrer votre CV** :
-   - Dans votre fichier HTML, choisissez la section où vous voulez que votre CV apparaisse.
-   - Cela peut être une section dédiée au CV, ou vous pouvez créer une nouvelle section.
-
-2. **Intégrez le PDF à l'aide de la balise `<object>` ou `<iframe>` ** :
-
-   ```html
-   <!-- Méthode 1 : Utilisation de la balise object -->
-   <div style="width: 100%; height: 600px; overflow: auto; margin-bottom: 20px;">
-     <object data="cv/cv.pdf" type="application/pdf" width="100%" height="100%">
-       <p>Il semble que votre navigateur ne puisse pas afficher le PDF intégré. Vous pouvez <a href="cv/cv.pdf">télécharger le PDF</a> ou utiliser l'image d'aperçu ci-dessous.</p>
-       <img src="cv/cv.png" alt="Aperçu du CV" style="width: 100%;" />
-     </object>
-   </div>
-   
-   <!-- OU -->
-   
-   <!-- Méthode 2 : Utilisation de la balise iframe -->
-   <div style="width: 100%; height: 600px; margin-bottom: 20px;">
-     <iframe src="cv/cv.pdf" width="100%" height="100%" style="border: none;">
-       Votre navigateur ne supporte pas les iframes. Vous pouvez <a href="cv/cv.pdf">télécharger le PDF</a> directement.
-     </iframe>
-   </div>
-   ```
-
-3. **Ajoutez un lien de téléchargement direct** :
-
-   ```html
-   <p>
-     <a href="cv/cv.pdf" download>Télécharger mon CV</a>
-   </p>
-   ```
-
-4. **Adaptez le style à votre template** :
-   - Ajustez les styles CSS (largeur, hauteur, marges, etc.) pour que l'intégration s'harmonise avec votre design.
-   - Vous pouvez utiliser les classes CSS de votre template pour les boutons et autres éléments.
-
-5. **Vérifiez l'affichage sur différents navigateurs** :
-   - Les balises `<object>` et `<iframe>` se comportent différemment selon les navigateurs.
-   - L'approche avec la balise `<object>` permet d'afficher une solution de secours (l'image PNG) si le navigateur ne peut pas afficher le PDF.
-   - Testez votre site sur différents navigateurs pour vous assurer que le CV s'affiche correctement ou que l'alternative est visible.
-
-# Critères d'évaluation (cours d'outils numériques POL-6078)
-
-- Site Web sur GitHub (30%)
-    - Le site web est hébergé sur GitHub, et le répertoire est accessible.
-    - Les commits sont visibles et montrent un suivi régulier du travail effectué.
-- Respect des étapes et des modifications demandées (50%)
-    - L'étudiant.e a suivi les étapes du ReadMe.
-    - Les sections essentielles ont été complétées et modifiées correctement.
-    - Le contenu du site est pertinent par rapport aux objectifs du cours.
-- Personnalisation avancée (20%)
-    - L'étudiant.e a personnalisé son site (changement de couleurs, utilisation d’un autre template, ajustements spécifiques à ses besoins).
-    - Les modifications vont au-delà des consignes de base, démontrant une initiative supplémentaire.
+Le [README original du gabarit](docs/GUIDE-ORIGINAL.md) est conservé sans modification, avec ses étapes et critères d’évaluation. Il reste également consultable dans le commit initial.
