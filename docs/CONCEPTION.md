@@ -22,3 +22,18 @@ ChatGPT / Codex a assisté la reformulation des textes fournis, la conception vi
 - Images : `images/`.
 
 Aucune installation et aucun serveur applicatif ne sont nécessaires. GitHub Pages sert les fichiers à partir de `main`, dossier racine. Le CV est réservé à une itération ultérieure.
+
+## Refonte sobre du 23 octobre 2026
+
+Préparée sur la branche `refonte-sobre-times`, sans modifier la version publiée sur `main` avant la validation finale demandée par le titulaire.
+
+- Identité : lettre V sans point dans la navigation, l’onglet et le favicon; retrait des flèches et des tirets décoratifs.
+- Typographie : Times New Roman sur l’ensemble de l’interface. Le nom complet est un seul titre, sans différences de taille, de graisse ou de casse entre ses parties. Les paragraphes sont à 18 px, les éléments secondaires à 15–17 px; les titres ont des tailles adaptatives et modérées.
+- Photographies : couverture unique immédiatement sous la navigation; `object-fit: cover` et cadrage vers le bas pour préserver l’eau et les rives. Portrait à droite sur ordinateur, circulaire grâce à `aspect-ratio: 1` et `border-radius: 50%`, de 240 px à 144 px suivant l’écran. Les fichiers photographiques restent inchangés.
+- Contacts : une liste unique avec la même règle CSS pour le courriel, GitHub et Facebook. Le lien `mailto:` et la copie progressive du courriel sont conservés.
+- Pied de page : nom, année, retour en haut et lien discret vers `mentions-legales.html`. Cette page rassemble le titre et l’auteur du modèle, les liens d’origine, la licence, la description de l’adaptation et l’assistance IA. LICENSE.txt est conservé intégralement, ainsi que les notices des ressources historiques.
+- Le CSS est mis en forme et commenté pour faciliter l’apprentissage. Le JavaScript du menu, de la galerie et de la copie n’a pas été modifié.
+
+### Comprendre les fichiers
+
+HTML décrit le contenu et son ordre : déplacer la figure de couverture la fait apparaître avant la présentation. CSS définit l’apparence : la grille place le texte et le portrait côte à côte; les media queries adaptent la disposition aux petits écrans. Le JavaScript préexistant ouvre le menu et les photographies, et propose la copie du courriel en HTTPS.

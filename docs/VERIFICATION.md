@@ -39,3 +39,27 @@
 - Le titulaire a explicitement autorisé la publication de son nom, parcours, projet, courriel, liens et cinq photos sur GitHub et GitHub Pages; il a confirmé disposer des autorisations nécessaires pour les personnes visibles.
 - Les modalités particulières de déclaration IA restent à vérifier selon les directives professorales. L’assistance utilisée est explicitement documentée.
 - Déploiement du portfolio (commit 4966144) vérifié : exécution Pages 40042001872, statut Success. Les cinq photos sont chargées et décodées sur le site HTTPS. La remise universitaire reste à effectuer par le titulaire.
+
+## Refonte sobre, vérifications du 23 octobre 2026
+
+Statut : préparée sur `refonte-sobre-times`. L’intégration sur `main` et le déploiement de cette refonte attendent la validation finale du titulaire. Les résultats de publication ci-dessus concernent la version précédente.
+
+### Contrôles réellement exécutés
+
+- Inspection et récupération de `main` : base 150fd5b, sept commits préexistants conservés. Branche dédiée créée dans le dépôt GitHub.
+- Contrôle statique des deux pages : ressources locales existantes, ancres valides, identifiants uniques, textes alternatifs présents; absence de grands tirets et de flèches décoratives dans les textes visibles. Syntaxe JavaScript et `git diff --check` valides.
+- Chromium ordinateur, fenêtre de 1363 px : largeur de document 1348 px, sans débordement. Couverture, portrait, sections, contacts et pied de page inspectés visuellement.
+- Formats simulés dans des cadres de 320, 390 et 768 px : largeurs utiles 305, 375 et 753 px; scrollWidth égal à clientWidth dans les trois cas. Ce sont des simulations de largeur, pas des tests sur appareils physiques.
+- Correction après inspection : cadrage de la couverture vers le bas pour montrer l’eau; réduction homogène du titre à 26 px sous 380 px pour éviter une dernière lettre isolée; navigation sans animation de défilement.
+- Police calculée des éléments affichés sur ordinateur : Times New Roman, serif. Portrait mesuré à 240 × 240 px, rayon de 50 %. Trois contacts mesurés à 18 px, avec padding 14 px 0 et alignement identique.
+- Clic sur les cinq liens du menu : ancres attendues obtenues. Menu téléphone : ouverture puis clic Projet et fermeture confirmées par aria-expanded.
+- Trois photographies de galerie ouvertes sur ordinateur, fermeture avec Échap; ouverture et fermeture par bouton testées sur téléphone simulé. Les cinq photographies du site sont chargées et décodées.
+- Page des mentions légales ouverte via son lien. Attribution et licence conservées dans la documentation, cette page et LICENSE.txt.
+- Liens externes testés par requêtes HTTP : dépôt personnel, gabarit CLESSN, HTML5 UP, page Read Only et licence CC BY 3.0 répondent 200. Facebook répond 200 après redirection vers sa page de connexion; profil non vérifié. Destination mailto contrôlée, aucun courriel envoyé.
+- Journaux Chromium consultés : les erreurs relevées concernent l’extension du navigateur, pas le code du site.
+
+### Limites restantes
+
+- Déploiement de la refonte et nouveau contrôle en HTTPS à effectuer après validation. La copie du courriel est masquée dans l’aperçu HTTP; le JavaScript correspondant est inchangé, mais son fonctionnement HTTPS doit être recontrôlé après intégration.
+- Pas de test sur téléphone physique, Safari ou Firefox, ni audit exhaustif d’accessibilité.
+- Les contenus biographiques du site ont été conservés sans changement arbitraire; la formation actuelle doit être reconfirmée par le titulaire avant publication en cas de correction.
